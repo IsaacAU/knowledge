@@ -15,7 +15,8 @@ TODO list
 1. Manacher's algorithm
 
 ##### the needle in a haystack problem: strstr()
-1. KMP algorithm
+1. Rabin-Karp Algorithm (RK)
+2. Knuth-Morris-Pratt Algorithm (KMP)
 
 ##### Math Evalutation
 1. Recursive descent parser
