@@ -14,7 +14,7 @@ TODO list
 ##### Longest Palindromic Substring (LPS)
 1. Manacher's algorithm
 
-##### strstr()
+##### the needle in a haystack problem: strstr()
 1. KMP algorithm
 
 ##### Math Evalutation
