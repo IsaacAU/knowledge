@@ -45,8 +45,55 @@ vector<int> postorder2(TreeNode *root){
   return res;
 }
 
-// moore traverse
-TO DO
+// 3. 1 stacks  (preorder first right then left is reversed postorder)
+vector<int> postorder3(TreeNode *root){
+  vector<int> res;
+  if(!root) return res;
+  stack<TreeNode*> stk;
+  stk.push(root);
+  while(!stk.empty()){
+    TreeNode *nd=stk.top(); stk.pop();
+    res.push_back(nd->val);
+    if(nd->left)
+      stk.push(nd->left);
+    if(nd->right)
+      stk.push(nd->right);
+  }
+  reverse(begin(res), end(res));
+  return res;
+}
+
+// 4. moore traverse
+vector<int> postorder4(TreeNode *root){
+  vector<int> res;
+  TreeNode dummy(-1);
+  dummy->left=root;
+  TreeNode *nd=&dummy;
+  while(nd){
+    if(nd->left){
+      TreeNode *prev=nd->left;
+      while(prev->right && prev->right!=nd)
+        prev=prev->right;
+      if(prev->right){
+        int sz=res.size();
+        TreeNode *tmp=nd->left;
+        while(tmp!=nd){
+          res.push_back(tmp->val);
+          tmp=tmp->right;
+        }
+        reverse(next(begin(res), sz), end(res));
+        prev->right=nullptr;
+        nd=nd->right;
+      }else{
+        prev->right=nd;
+        nd=nd->left;
+      }
+    }else{
+      nd=nd->right;
+    }
+  }
+  return res;
+}
 
 
 
