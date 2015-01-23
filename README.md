@@ -1,5 +1,15 @@
-TODO list
+For review
 ---
+
+##### [Implement Simple Trie](Trie.h)
+
+##### [Implement Dijkstra's algorithm](dijkstra.cpp)
+
+##### [Preorder traverse of Binary Tree](preOrder.cpp)
+
+##### [Inorder traverse of Binary Tree](inOrder.cpp)
+
+##### [Postorder traverse of Binary Tree](postOrder.cpp)
 
 ##### Longest-Common-Subsequence (LCS)
 
