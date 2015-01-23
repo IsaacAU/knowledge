@@ -87,7 +87,7 @@ vi dijkstra2(vvii &G, int s){
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
+    freopen("dijkstra.in", "r", stdin);
     cin.sync_with_stdio(0);
     cin.tie(0);
     int v,e,x,y,w,s;
