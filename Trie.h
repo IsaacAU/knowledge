@@ -10,6 +10,7 @@ using namespace std;
 const int ALPHA=26;
 
 struct TrieNode{
+    friend class Trie;
     int Nchild;
     bool isWord;
     TrieNode *child[ALPHA];
