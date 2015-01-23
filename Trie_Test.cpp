@@ -10,7 +10,7 @@ int main(){
         t.insert(s);
     string s;
     ////////////////////////////////////////////////////////
-    cout<<"Test find function:\n(enter \"over\" to stop)"<<endl;
+    cout<<"Test find function:\t(enter \"over\" to stop)"<<endl;
     while(cin>>s){
         if(s=="over")   break;
         if(t.findWord(s))
@@ -19,7 +19,7 @@ int main(){
             cout<<s<<" is not in the trie!"<<endl;
     }
     //////////////////////////////////////////////////////////
-    cout<<"Test auto complete function:\n(enter \"over\" to stop)"<<endl;
+    cout<<"Test auto complete function:\t(enter \"over\" to stop)"<<endl;
     while(cin>>s){
         if(s=="over")   break;
         vector<string> res=t.listPostfix(s);
