@@ -3,7 +3,7 @@ Classic Problems
 
 #### Longest-Common-Subsequence (LCS)
 
-Dynamic Programming
+1. Dynamic Programming
 
 #### Longest Increasing Subsequence (LIS)
 
