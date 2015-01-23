@@ -1,7 +1,7 @@
 For review
 ---
 
-##### [Implement Simple Trie](Trie.h)
+##### * [Implement Simple Trie](Trie.h)
 
 ##### [Implement Dijkstra's algorithm](dijkstra.cpp)
 
