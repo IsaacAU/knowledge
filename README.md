@@ -1,21 +1,21 @@
 For review
 ---
 
-#### [Implement Simple Trie](Trie.h)
+#### [Implement Simple Trie](Trie/Trie.h)
 
-#### [Implement Dijkstra's algorithm](dijkstra.cpp)
+#### [Implement Dijkstra's algorithm](Graph/dijkstra.cpp)
 
-#### [Preorder traverse of Binary Tree](preOrder.cpp)
+#### [Preorder traverse of Binary Tree](BinaryTree/preOrder.cpp)
 1. recursive implementation (space O(logn))
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
 
-#### [Inorder traverse of Binary Tree](inOrder.cpp)
+#### [Inorder traverse of Binary Tree](BinaryTree/inOrder.cpp)
 1. recursive implementation (space O(logn))
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
 
-#### [Postorder traverse of Binary Tree](postOrder.cpp)
+#### [Postorder traverse of Binary Tree](BinaryTree/postOrder.cpp)
 1. recursive implementation (space O(logn))
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
