@@ -6,19 +6,19 @@ For review
 #### [Implement Dijkstra's algorithm](dijkstra.cpp)
 
 #### [Preorder traverse of Binary Tree](preOrder.cpp)
-1. recursive implementation
-2. iterative implementation O(n)
-3. moore's iterative implementation O(1)
+1. recursive implementation (space O(logn))
+2. iterative implementation (space O(logn))
+3. Morris iterative implementation (space O(1))
 
 #### [Inorder traverse of Binary Tree](inOrder.cpp)
-1. recursive implementation
-2. iterative implementation O(n)
-3. moore's iterative implementation O(1)
+1. recursive implementation (space O(logn))
+2. iterative implementation (space O(logn))
+3. Morris iterative implementation (space O(1))
 
 #### [Postorder traverse of Binary Tree](postOrder.cpp)
-1. recursive implementation
-2. iterative implementation O(n)
-3. moore's iterative implementation O(1)
+1. recursive implementation (space O(logn))
+2. iterative implementation (space O(logn))
+3. Morris iterative implementation (space O(1))
 
 #### Longest-Common-Subsequence (LCS)
 
