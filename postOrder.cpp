@@ -27,7 +27,7 @@ vector<int> postorder2(TreeNode *root){
   stk.push(root);
   TreeNode *prev=nullptr;
   while(!stk.empty()){
-    TreeNode *nd=stk.top(); stk.pop();
+    TreeNode *nd=stk.top();
     if(!prev || prev->left==nd || prev->right==nd){
       if(nd->left)
         stk.push(nd->left);
@@ -38,6 +38,7 @@ vector<int> postorder2(TreeNode *root){
         stk.push(nd->right);
     }else{
       res.push_back(nd->val);
+      stk.pop();
     }
     prev=nd;
   }
