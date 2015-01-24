@@ -20,7 +20,7 @@ For review
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
 
-#### [Heap Implementation](heap.h)
+#### [Heap Implementation](heap/heap.h)
 
 #### Longest-Common-Subsequence (LCS)
 
