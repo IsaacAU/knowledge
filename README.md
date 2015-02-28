@@ -1,8 +1,6 @@
 For review
 ---
 
-#### [Implement Simple Trie](Trie/Trie.h)
-
 #### [Implement Dijkstra's algorithm](Graph/dijkstra.cpp)
 
 #### [Preorder traverse of Binary Tree](BinaryTree/preOrder.cpp)
@@ -22,6 +20,12 @@ For review
 
 #### [Heap Implementation](Heap/heap.cpp)
 
+#### String Manipulation
+1. [Implement Simple Trie](Trie/Trie.h)
+2. String Match: find occurance of pattern in text
+* Preprocess pattern: [KMP](KMP/kmp.cpp), RK, BM, etc.
+* Preprocess text: [Suffix Tree](Suffix Tree/)
+
 #### Longest-Common-Subsequence (LCS)
 
 1. Dynamic Programming
@@ -34,10 +38,6 @@ For review
 
 #### Longest Palindromic Substring (LPS)
 1. Manacher's algorithm
-
-#### the needle in a haystack problem: strstr()
-1. Rabin-Karp Algorithm (RK)
-2. [Knuth-Morris-Pratt Algorithm (KMP)](KMP/kmp.cpp)
 
 #### Math Evalutation
 1. Recursive descent parser
