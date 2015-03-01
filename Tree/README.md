@@ -1,5 +1,3 @@
-#### B Tree
-
 #### AVL Tree
 
 #### Red Black Tree
