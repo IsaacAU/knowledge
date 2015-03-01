@@ -24,7 +24,7 @@ For review
 1. [Implement Simple Trie](Trie/Trie.h)
 2. String Match: find occurance of *pattern* in *text*
   * Preprocess pattern: [KMP](KMP/kmp.cpp), RK, BM, etc.
-  * Preprocess text: [Suffix Tree](Suffix Tree/)
+  * Preprocess text: [Suffix Tree](SuffixTree/)
 
 #### Longest-Common-Subsequence (LCS)
 
