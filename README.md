@@ -19,10 +19,9 @@ For review
 3. Morris iterative implementation (space O(1))
 
 #### [Balanced Tree](Tree/)
-1. B Tree
-2. AVL Tree
-3. Red Black Tree
-4. Splay Tree
+1. AVL Tree
+2. Red Black Tree
+3. Splay Tree
 
 #### [Heap Implementation](Heap/heap.cpp)
 
