@@ -18,6 +18,12 @@ For review
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
 
+#### [Balanced Tree](Tree/)
+1. B Tree
+2. AVL Tree
+3. Red Black Tree
+4. Splay Tree
+
 #### [Heap Implementation](Heap/heap.cpp)
 
 #### String Manipulation
