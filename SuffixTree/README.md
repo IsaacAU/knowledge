@@ -1,4 +1,5 @@
 High Level Ukkonen’s algorithm
+`
 Construct tree T1
 For i from 1 to m-1 do
 begin {phase i+1}
@@ -8,6 +9,7 @@ begin {phase i+1}
                     Extend that path by adding character S[i+l] if it is not there already
           end;
 end;
+`
 
 There are 3 extension rules:
 
