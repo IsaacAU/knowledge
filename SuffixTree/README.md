@@ -44,4 +44,7 @@ To accomplish this, we need a way to store activePoint. We will store this using
 
 **activePoint change for extension rule 3 (APCFER3)**: When rule 3 applies in any phase i, then before we move on to next phase i+1, we increment activeLength by 1. There is no change in activeNode and activeEdge. Why? Because in case of rule 3, the current character from string S is matched on the same path represented by current activePoint, so for next activePoint, activeNode and activeEdge remain the same, only activeLenth is increased by 1 (because of matched character in current phase). This new activePoint (same node, same edge and incremented length) will be used in phase i+1.
 
+**activePoint change for walk down (APCFWD)**: activePoint may change at the end of an extension based on extension rule applied. activePoint may also change during the extension when we do walk down. The idea is that, at any time, the closest internal node from the point, where we want to reach, should be the activePoint. Why? This will minimize the length of traversal in the next extension.
+
+**activePoint change for Active Length ZERO (APCFALZ)**
 
