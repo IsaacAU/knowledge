@@ -1,6 +1,5 @@
-High Level Ukkonen’s algorithm
+**High Level Ukkonen’s algorithm**
 
-`
 Construct tree T1
 
 For i from 1 to m-1 do
@@ -18,7 +17,6 @@ begin {phase i+1}
           end;
           
 end;
-`
 
 There are 3 extension rules:
 
