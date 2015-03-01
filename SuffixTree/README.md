@@ -1,13 +1,22 @@
 High Level Ukkonen’s algorithm
+
 `
 Construct tree T1
+
 For i from 1 to m-1 do
+
 begin {phase i+1}
+
           For j from 1 to i+1
+          
                     begin {extension j}
+                    
                     Find the end of the path from the root labelled S[j..i] in the current tree.
+                    
                     Extend that path by adding character S[i+l] if it is not there already
+                    
           end;
+          
 end;
 `
 
