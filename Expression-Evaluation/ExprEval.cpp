@@ -12,6 +12,7 @@ double ExprEval::getName(const string &name) const{
         return it->second;
     else
         cerr<<name<<" doesn't exist!"<<endl;
+    return 0;
 }
 
 void ExprEval::printNames() const{
@@ -34,14 +35,14 @@ void ExprEval::clearTable(){
 
 double ExprEval::number(){
     double res=0;
-    while(i<s.length() && isdigit(s[i])){
+    while(i<(int)s.length() && isdigit(s[i])){
         res=10*res+int(s[i]-'0');
         ++i;
     }
-    if(i<s.length() && s[i]=='.'){
+    if(i<(int)s.length() && s[i]=='.'){
         ++i;
         double k=10;
-        while(i<s.length() && isdigit(s[i])){
+        while(i<(int)s.length() && isdigit(s[i])){
             res+=int(s[i]-'0')/k;
             k*=10;
             ++i;
@@ -52,7 +53,7 @@ double ExprEval::number(){
 
 double ExprEval::prim(){
     double res=0;
-    if(i<s.length()){
+    if(i<(int)s.length()){
         if(isdigit(s[i]))
             res=number();
         else if(s[i]=='-'){
@@ -64,7 +65,7 @@ double ExprEval::prim(){
             ++i;
         }else if(isalpha(s[i])){
             string name;
-            while(i<s.length() && isalnum(s[i]))
+            while(i<(int)s.length() && isalnum(s[i]))
                 name.push_back(s[i++]);
             res=table[name];
         }
@@ -74,7 +75,7 @@ double ExprEval::prim(){
 
 double ExprEval::term(){
     double left=prim();
-    while(i<s.length() && (s[i]=='*' || s[i]=='/')){
+    while(i<(int)s.length() && (s[i]=='*' || s[i]=='/')){
         if(s[i++]=='*')
             left*=prim();
         else
@@ -85,7 +86,7 @@ double ExprEval::term(){
 
 double ExprEval::expr(){
     double left=term();
-    while(i<s.length() && (s[i]=='+' || s[i]=='-')){
+    while(i<(int)s.length() && (s[i]=='+' || s[i]=='-')){
         if(s[i++]=='+')
             left+=term();
         else
