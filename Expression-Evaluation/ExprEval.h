@@ -22,8 +22,8 @@ private:
     double prim();
     double term();
     double expr();
-    int i;
     string s;
+    int i;
     unordered_map<string,double> table;
 };
 
