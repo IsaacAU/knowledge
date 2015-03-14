@@ -22,6 +22,8 @@ For review
 1. [Range Sum Query](SegmentTree/RSQ.cpp)
 2. [Range Minimum Query](SegmentTree/RMQ.cpp)
 
+#### [Binary Indexed Tree (BIT/Fenwick Tree)](BIT/)
+
 #### [Balanced Tree](Tree/)
 1. AVL Tree
 2. Red Black Tree
