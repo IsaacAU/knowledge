@@ -18,6 +18,10 @@ For review
 2. iterative implementation (space O(logn))
 3. Morris iterative implementation (space O(1))
 
+#### [Segment Tree](SegmentTree/)
+1. [Range Sum Query](SegmentTree/RSQ.cpp)
+2. [Range Minimum Query](SegmentTree/RMQ.cpp)
+
 #### [Balanced Tree](Tree/)
 1. AVL Tree
 2. Red Black Tree
