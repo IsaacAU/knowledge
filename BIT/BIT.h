@@ -10,7 +10,6 @@ public:
 	int getElem(int) const;
 	void update(int,int);
 	int getSize() const;
-	friend ostream& operator<<(ostream&,const BIT&);
 private:
 	BIT(const BIT&);              // avoid copy
 	BIT& operator=(const BIT&);   // avoid assign
