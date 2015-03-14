@@ -4,4 +4,4 @@
 
 1. [Range Sum Qeury](RSQ.cpp)
 
-2. [Range Minimum Query(RMQ.cpp)
+2. [Range Minimum Query](RMQ.cpp)
