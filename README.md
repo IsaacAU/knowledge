@@ -30,9 +30,9 @@ For review
 3. Splay Tree
 
 #### [Modern Sort](Sort/)
-1. [Quick Sort](Sort/quicksort.cpp)
-2. [Merge Sort](Sort/mergesort.cpp)
-3. [Heap Sort](Sort/heapsort.cpp)
+1. [Quick Sort](Sort/quickSort.cpp)
+2. [Merge Sort](Sort/mergeSort.cpp)
+3. [Heap Sort](Sort/heapSort.cpp)
 
 #### [Heap Implementation](Heap/heap.cpp)
 
