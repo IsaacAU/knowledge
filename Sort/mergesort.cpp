@@ -42,6 +42,6 @@ int main(){
   mergeSort(v.begin(), v.end());
   cout<<v<<endl;
 }
-}
+
 
 
