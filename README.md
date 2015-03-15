@@ -29,10 +29,10 @@ For review
 2. Red Black Tree
 3. Splay Tree
 
-#### [Modern Sort](sort/)
-1. [Quick Sort](sort/quicksort.cpp)
-2. [Merge Sort](sort/mergesort.cpp)
-3. [Heap Sort](sort/heapsort.cpp)
+#### [Modern Sort](Sort/)
+1. [Quick Sort](Sort/quicksort.cpp)
+2. [Merge Sort](Sort/mergesort.cpp)
+3. [Heap Sort](Sort/heapsort.cpp)
 
 #### [Heap Implementation](Heap/heap.cpp)
 
